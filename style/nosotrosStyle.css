@@ -1,0 +1,37 @@
+.nosotrosIntro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.nosotrosIntro div {
+    color: rgb(129, 3, 15);
+    text-align: center;
+    font-family: bodoni;
+    font-size: 20px;
+}
+
+.listProf {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+    gap: 30px;
+}
+
+.mapSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mapSection div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}

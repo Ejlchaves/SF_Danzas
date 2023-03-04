@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+    color: white;
+}
+section {
+    margin: 5px;
+}
+
+p {
+    font-family: bodoni;
+    font-size: 20px;
+}
+.fondoTitulo {
+    /* background-image: url(../src/SF\ Company\ Portada.jpg); */
+    max-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment:scroll ;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+    border-top: solid 2px rgb(129, 3, 15);
+}
+
+h2 {
+    color: white;
+    background-color: rgb(129, 3, 15);
+    border-radius: 10px;
+    border: solid 2px rgb(129, 3, 15);
+}
+
+.introCompany {
+    text-align: center;
+}
+
+.introCompany p {
+    padding: 15px;
+}
+
+.compeContainer {
+    display: flex;
+    flex-direction: column;
+} 
+
+.compeCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.compeCard img {
+    width: 550px;
+    height: 500px;
+    margin: 10px;
+    
+    background-color: antiquewhite;
+}
+
+.compeCard p {
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    height: 10rem;
+    align-items: center;
+
+}
+
+.conpanyTable {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+/*     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto); */
+}
+
+.cardMember {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: bodoni;
+}
+
+.cardMember img {
+    padding: 10px;
+    border-radius: 5px;
+    border:solid 1px rgb(129, 3, 15);
+    box-shadow: 2px 1px 10px 0.2px rgb(182, 5, 23);
+    width: 300px;
+    height: 350px;
+}
+
+.redesContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.cardRedesContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardRedes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.cardRedes img {
+    border: solid 1px rgb(129, 3, 15);
+    border-radius: 10px;
+    width: 550px;
+    height: 350px;
+}
+
+.footerContainer {
+    height: 2rem;
+}
