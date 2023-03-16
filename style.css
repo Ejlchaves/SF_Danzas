@@ -43,14 +43,19 @@ p {
 
 }
 
+.navbar-brand {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
 
 .logo {
-    width: 60px;
-    height: 60px;
-    color: white;
-    margin-left: 2rem;
-    background-color: white;
-    border-radius: 50%;
+    width: 80px;
+    height: 40px;
+    /* margin-left: 2rem; */
+    /* background-color: white; */
 }
 
 .navTabs {
@@ -407,7 +412,6 @@ body #user-button {
     width: calc(100% - 100px);
     height: 400px;
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .carruselIndex
@@ -423,9 +427,6 @@ body #user-button {
     body .options {
       min-width: 520px;
       display: none;
-    }
-    body .options .option:nth-child(5) {
-      /* display: none; */
     }
 
     .carruselIndex {
@@ -479,12 +480,11 @@ body #user-button {
   }
   body .options .option.active .shadow {
     box-shadow: inset 0 -120px 120px -120px black,
-      inset 0 -120px 120px -100px black;
+      /* inset 0 -120px 120px -100px black; */
   }
   body .options .option.active .label {
     bottom: 20px;
     left: 20px;
-  /*   width: 250px; */
     word-break:break-all;
   }
   body .options .option.active .label .info > div {
@@ -566,6 +566,9 @@ body #user-button {
     color: white;
     white-space: break-spaces;
     font-family: 'Bodoni Moda', serif;
+    background-color: #00000090;
+    border-radius: 10px;
+    padding: 15px;
   }
   body .options .option .label .info > div {
     position: relative;
